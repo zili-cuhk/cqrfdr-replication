@@ -1,0 +1,25 @@
+"dataset","role","n","events","tau","ssms_q01","ssms_q02","mds_q01","lhdcqr","cox","jaccard_q01","decoy_share_q01","decoy_share_lhdcqr","C_ssms_q01","C_lhdcqr"
+"BRCA_METABRIC","MAIN TEXT",1979,1143,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"BRCA_METABRIC","MAIN TEXT",1979,1143,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"OV_TCGA","supplement",557,290,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"OV_TCGA","supplement",557,290,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_OV","supplement (cap < 25)",303,183,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_OV","supplement (cap < 25)",303,183,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_HNSC","supplement (cap < 25)",519,220,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_HNSC","supplement (cap < 25)",519,220,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_SKCM","supplement (cap < 25)",453,213,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_SKCM","supplement (cap < 25)",453,213,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_LUSC","supplement (cap < 25)",494,212,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_LUSC","supplement (cap < 25)",494,212,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_LUAD","supplement (cap < 25)",502,182,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_LUAD","supplement (cap < 25)",502,182,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_BLCA","supplement (cap < 25)",405,177,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_BLCA","supplement (cap < 25)",405,177,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_KIRC","supplement (cap < 25)",531,175,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_KIRC","supplement (cap < 25)",531,175,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"DLBCL_GSE10846","supplement (cap < 25)",412,163,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"DLBCL_GSE10846","supplement (cap < 25)",412,163,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_STAD","supplement (cap < 25)",389,156,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_STAD","supplement (cap < 25)",389,156,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_BRCA","supplement (cap < 25)",1081,151,0.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA_BRCA","supplement (cap < 25)",1081,151,0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

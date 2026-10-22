@@ -1,0 +1,5 @@
+"dataset","tau","q","splits","mean_selected","share_empty","jaccard","genes_freq50","main_genes_median_freq","top_genes"
+"SUPPORT2",0.25,"0.1",100,32.1,0.11,0.406,30,0.69,"adl;age;ca_meta;dz_copd;dz_mosf_malig;hday;meanbp;scoma;num_co;alb:bun;dz_chf;dz_coma;age:scoma;age:num_co;dz_cirrhosis"
+"SUPPORT2",0.25,"0.2",100,52.5,0.07,0.418,41,0.75,"adl;age;ca_meta;dz_copd;dz_mosf_malig;hday;meanbp;scoma;age:scoma;alb:bun;num_co;scoma:hday;adl^2;age:dz_mosf_malig;dz_coma"
+"SUPPORT2",0.5,"0.1",100,42.1,0.02,0.482,36,0.59,"adl;age;age:num_co;ca_meta;dz_cirrhosis;dz_mosf_malig;hday;num_co;scoma;dz_mosf_malig:ca_yes;age:dz_mosf_malig;ca_yes;age:dz_chf;meanbp;age:scoma"
+"SUPPORT2",0.5,"0.2",100,65.1,0.01,0.483,52,0.69,"adl;age;age:dz_chf;age:dz_mosf_malig;age:num_co;ca_meta;dz_cirrhosis;dz_mosf_malig;dz_mosf_malig:ca_yes;hday;meanbp;num_co;scoma;pafi:bun;age:scoma"

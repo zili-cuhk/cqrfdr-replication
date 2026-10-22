@@ -1,0 +1,38 @@
+\begin{table}[!htbp]
+\centering\scriptsize
+\caption{All eligible data sets, analysed with the same pre-specified pipeline. Numbers of selected genes on the full data; split-to-split Jaccard index of SS-MS; share of permuted (decoy) genes among the selections; hold-out C-index (70/30 splits).}
+\label{tab:realdata-all}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrr rrrrr rrr rr}
+\toprule
+& & & & \multicolumn{5}{c}{Selected genes} & & \multicolumn{2}{c}{Decoy share} & \multicolumn{2}{c}{C-index}\\
+\cmidrule(lr){5-9}\cmidrule(lr){11-12}\cmidrule(lr){13-14}
+Data set & $n$ & Events & $\tau$ & SS-MS$_{0.1}$ & SS-MS$_{0.2}$ & MDS$_{0.1}$ & L-HDCQR & Cox & Jaccard & SS-MS$_{0.1}$ & L-HDCQR & SS-MS$_{0.1}$ & L-HDCQR \\
+\midrule
+BRCA\_METABRIC & 1979 & 1143 & 0.25 & 0 & 0 & 13 & 13 & 95 & 0.90 & 0.00 & 0.02 & 0.50 & 0.62 \\
+BRCA\_METABRIC & 1979 & 1143 & 0.50 & 0 & 0 & 39 & 9 & 105 & 0.94 & 0.00 & 0.00 & 0.50 & 0.61 \\
+OV\_TCGA & 557 & 290 & 0.25 & 0 & 0 & 23 & 0 & 31 & 1.00 & 0.00 & 0.02 & 0.50 & 0.50 \\
+OV\_TCGA & 557 & 290 & 0.50 & 0 & 5 & 0 & 0 & 30 & 1.00 & 0.00 & 0.00 & 0.50 & 0.50 \\
+TCGA\_OV & 303 & 183 & 0.25 & 0 & 0 & 24 & 21 & 5 & 1.00 & 0.00 & 0.01 & 0.50 & 0.54 \\
+TCGA\_OV & 303 & 183 & 0.50 & 0 & 0 & 3 & 0 & 0 & 1.00 & 0.00 & 0.01 & 0.50 & 0.52 \\
+TCGA\_HNSC & 519 & 220 & 0.25 & 0 & 0 & 25 & 9 & 41 & 1.00 & 0.00 & 0.03 & 0.50 & 0.59 \\
+TCGA\_HNSC & 519 & 220 & 0.50 & 0 & 0 & 16 & 7 & 25 & 1.00 & 0.00 & 0.01 & 0.50 & 0.57 \\
+TCGA\_SKCM & 453 & 213 & 0.25 & 0 & 0 & 42 & 2 & 27 & 1.00 & 0.00 & 0.03 & 0.50 & 0.59 \\
+TCGA\_SKCM & 453 & 213 & 0.50 & 0 & 0 & 6 & 6 & 20 & 1.00 & 0.00 & 0.00 & 0.50 & 0.59 \\
+TCGA\_LUSC & 494 & 212 & 0.25 & 0 & 0 & 0 & 0 & 0 & 1.00 & 0.00 & 0.00 & 0.50 & 0.50 \\
+TCGA\_LUSC & 494 & 212 & 0.50 & 0 & 0 & 0 & 0 & 0 & 1.00 & 0.00 & 0.00 & 0.50 & 0.51 \\
+TCGA\_LUAD & 502 & 182 & 0.25 & 0 & 0 & 26 & 9 & 26 & 1.00 & 0.00 & 0.02 & 0.50 & 0.61 \\
+TCGA\_LUAD & 502 & 182 & 0.50 & 0 & 0 & 21 & 5 & 17 & 1.00 & 0.00 & 0.00 & 0.50 & 0.57 \\
+TCGA\_BLCA & 405 & 177 & 0.25 & 0 & 0 & 23 & 22 & 21 & 0.98 & 0.00 & 0.04 & 0.50 & 0.57 \\
+TCGA\_BLCA & 405 & 177 & 0.50 & 0 & 0 & 8 & 1 & 17 & 0.98 & 0.00 & 0.01 & 0.50 & 0.54 \\
+TCGA\_KIRC & 531 & 175 & 0.25 & 0 & 5 & 30 & 15 & 31 & 1.00 & 0.00 & 0.01 & 0.50 & 0.68 \\
+TCGA\_KIRC & 531 & 175 & 0.50 & 0 & 0 & 19 & 3 & 27 & 1.00 & 0.00 & 0.00 & 0.50 & 0.68 \\
+DLBCL\_GSE10846 & 412 & 163 & 0.25 & 0 & 10 & 32 & 30 & 26 & 0.94 & 0.00 & 0.05 & 0.50 & 0.67 \\
+DLBCL\_GSE10846 & 412 & 163 & 0.50 & 0 & 7 & 0 & 7 & 18 & 0.98 & 0.00 & 0.00 & 0.50 & 0.62 \\
+TCGA\_STAD & 389 & 156 & 0.25 & 0 & 0 & 0 & 0 & 3 & 1.00 & 0.00 & 0.02 & 0.50 & 0.52 \\
+TCGA\_STAD & 389 & 156 & 0.50 & 0 & 0 & 2 & 2 & 4 & 1.00 & 0.00 & 0.00 & 0.50 & 0.50 \\
+TCGA\_BRCA & 1081 & 151 & 0.25 & 0 & 0 & 31 & 0 & 53 & 0.98 & 0.00 & 0.00 & 0.50 & 0.55 \\
+TCGA\_BRCA & 1081 & 151 & 0.50 & 0 & 0 & 0 & 0 & 47 & 1.00 & 0.00 & 0.01 & 0.50 & 0.55 \\
+\bottomrule
+\end{tabular}}
+\end{table}

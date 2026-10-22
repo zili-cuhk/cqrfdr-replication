@@ -1,0 +1,5 @@
+"dataset","tau","q","splits","mean_selected","share_empty","jaccard","genes_freq50","main_genes_median_freq","top_genes"
+"BRCA_METABRIC_TARGETED",0.25,"0.1",100,0.4,0.97,0.941,0,NA,"age;log_size;log1p_nodes;MAPT;AURKA;BLVRA;hormone;KRT14;KRT17;MELK;MMP11;CCNB1;chemo;ER_pos;ESR1"
+"BRCA_METABRIC_TARGETED",0.25,"0.2",100,3.3,0.59,0.418,0,NA,"age;log_size;log1p_nodes;MELK;AURKA;radio;BLVRA;CCNB1;ER_pos;MAPT;hormone;chemo;GRB7;KRT14;KRT17"
+"BRCA_METABRIC_TARGETED",0.5,"0.1",100,0.1,0.99,0.98,0,NA,"age;AURKA;BAG1;chemo;GRB7;log_size;log1p_nodes;NUF2;radio;SLC39A6"
+"BRCA_METABRIC_TARGETED",0.5,"0.2",100,2.4,0.69,0.513,0,NA,"age;log1p_nodes;log_size;FOXA1;AURKA;GRB7;MMP11;radio;BAG1;ER_pos;CDC20;chemo;ACTR3B;BLVRA;PHGDH"

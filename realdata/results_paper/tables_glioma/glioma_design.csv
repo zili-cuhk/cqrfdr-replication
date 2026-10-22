@@ -1,0 +1,2 @@
+"dataset","n","n_LGG","n_GBM","events","censoring","km_median_years","genes","clinical","p","screen_cap","taus","dropped_no_clinical"
+"GLIOMA_TCGA",664,511,153,246,0.63,4.21,2000,3,2003,25,"0.25;0.5",0

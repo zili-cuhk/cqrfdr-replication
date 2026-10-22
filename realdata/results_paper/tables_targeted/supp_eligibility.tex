@@ -1,0 +1,23 @@
+\begin{table}[!htbp]
+\centering\scriptsize
+\caption{Eligible data sets (n $\geq$ 200, at least 150 events, $\tau=0.25$ identifiable). Every eligible data set with both $\tau=0.25$ and $\tau=0.5$ identifiable is analysed with the same pipeline. Cap: screening cap $\lfloor d_2/\log d_2\rfloor$ with $d_2$ half the number of events; with a cap below 25, a selection at $q=0.1$ (at least 10 variables) needs nearly half of the screened set to be clear signals, so little power is expected. The main-text data set has the most events among the analysed data sets with an external validation cohort; the rule was fixed before any selection was computed.}
+\label{tab:realdata-eligibility}
+\begin{tabular}{llrrrrll}
+\toprule
+Data set & Cancer & $n$ & Events & Censoring & Cap & Analysed & Role \\
+\midrule
+BRCA\_METABRIC & BRCA & 1979 & 1143 & 0.42 & 89 & yes & main text \\
+OV\_TCGA & OV & 557 & 290 & 0.48 & 29 & yes & supplement \\
+TCGA\_OV & OV & 303 & 183 & 0.40 & 20 & yes & supplement (low cap) \\
+TCGA\_HNSC & HNSC & 519 & 220 & 0.58 & 23 & yes & supplement (low cap) \\
+TCGA\_SKCM & SKCM & 453 & 213 & 0.53 & 22 & yes & supplement (low cap) \\
+TCGA\_LUSC & LUSC & 494 & 212 & 0.57 & 22 & yes & supplement (low cap) \\
+TCGA\_LUAD & LUAD & 502 & 182 & 0.64 & 20 & yes & supplement (low cap) \\
+TCGA\_BLCA & BLCA & 405 & 177 & 0.56 & 19 & yes & supplement (low cap) \\
+TCGA\_KIRC & KIRC & 531 & 175 & 0.67 & 19 & yes & supplement (low cap) \\
+DLBCL\_GSE10846 & DLBCL & 412 & 163 & 0.60 & 18 & yes & supplement (low cap) \\
+TCGA\_STAD & STAD & 389 & 156 & 0.60 & 17 & yes & supplement (low cap) \\
+TCGA\_BRCA & BRCA & 1081 & 151 & 0.86 & 17 & yes & supplement (low cap) \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,13 @@
+"dataset","tau","method","q","reps","mean_selected","C","C_sd","loss"
+"GLIOMA_TCGA",0.25,"SS-MS","0.1",20,0,0.5,0,0.3388
+"GLIOMA_TCGA",0.25,"SS-MS","0.2",20,2.6,0.605,0.164,0.2934
+"GLIOMA_TCGA",0.25,"L-HDCQR (penalized)",NA,20,24.6,0.863,0.016,0.1252
+"GLIOMA_TCGA",0.25,"L-HDCQR (refit)",NA,20,24.6,0.854,0.015,7.537
+"GLIOMA_TCGA",0.25,"Cox-lasso",NA,20,35.7,0.861,0.015,NA
+"GLIOMA_TCGA",0.25,"intercept only",NA,20,0,0.5,0,0.3388
+"GLIOMA_TCGA",0.5,"SS-MS","0.1",20,0,0.5,0,0.2473
+"GLIOMA_TCGA",0.5,"SS-MS","0.2",20,0.8,0.553,0.13,0.2351
+"GLIOMA_TCGA",0.5,"L-HDCQR (penalized)",NA,20,15.2,0.852,0.016,0.096
+"GLIOMA_TCGA",0.5,"L-HDCQR (refit)",NA,20,15.2,0.852,0.016,0.1684
+"GLIOMA_TCGA",0.5,"Cox-lasso",NA,20,31.9,0.859,0.018,NA
+"GLIOMA_TCGA",0.5,"intercept only",NA,20,0,0.5,0,0.2473

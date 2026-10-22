@@ -1,0 +1,5 @@
+"dataset","tau","q","ssms","msms","msms_run2","msms_jaccard_runs","msms_share_empty_splits","msms_median_split_size","ssms_and_msms","mds_dai","mds_earlier","msms_genes"
+"GLIOMA_TCGA",0.25,"0.1",0,0,0,1,0.98,0,0,28,38,""
+"GLIOMA_TCGA",0.25,"0.2",0,10,4,0.4,0.52,0,0,29,40,"TNFRSF11B;GAS2L3;HILS1;CR1;HOXD4;WEE1;IRX5;AZGP1;PHEX;age"
+"GLIOMA_TCGA",0.5,"0.1",0,0,0,1,0.96,0,0,21,27,""
+"GLIOMA_TCGA",0.5,"0.2",16,4,0,0,0.7,0,3,21,24,"TNFRSF11B;HILS1;WEE1;age"

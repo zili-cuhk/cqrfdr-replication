@@ -1,0 +1,5 @@
+"dataset","tau","q","ssms","msms","msms_run2","msms_jaccard_runs","msms_share_empty_splits","msms_median_split_size","ssms_and_msms","mds_dai","mds_earlier","msms_genes"
+"BRCA_METABRIC_TARGETED",0.25,"0.1",0,0,0,1,1,0,0,17,16,""
+"BRCA_METABRIC_TARGETED",0.25,"0.2",0,3,4,0.75,0.62,0,0,16,15,"age;log_size;log1p_nodes"
+"BRCA_METABRIC_TARGETED",0.5,"0.1",0,0,0,1,0.98,0,0,10,11,""
+"BRCA_METABRIC_TARGETED",0.5,"0.2",0,3,4,0.75,0.64,0,0,7,8,"age;log_size;log1p_nodes"

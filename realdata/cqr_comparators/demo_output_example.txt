@@ -1,0 +1,20 @@
+n = 300, p = 100, censoring = 0.28, active = 1 2 3 4 5 6 7 8 9 10
+
+SS-MS              0.1   status ok           selected  10  FDP 0.00  power 1.00
+SS-MS              0.2   status ok           selected  12  FDP 0.17  power 1.00
+                   8 s
+MS-MS (B=5)        0.1   status ok           selected  10  FDP 0.00  power 1.00
+MS-MS (B=5)        0.2   status ok           selected  10  FDP 0.00  power 1.00
+                   8 s
+DS                 0.1   status ok           selected  10  FDP 0.00  power 1.00
+DS                 0.2   status ok           selected  11  FDP 0.09  power 1.00
+                   15 s
+MDS (B=5)          0.1   status ok           selected  10  FDP 0.00  power 1.00
+MDS (B=5)          0.2   status ok           selected  13  FDP 0.23  power 1.00
+                   73 s
+L-HDCQR                  status ok           selected  17  FDP 0.41  power 1.00
+                   6 s
+SCQR-Lasso               status ok           selected  49  FDP 0.80  power 1.00
+                   276 s
+SCQR-SCAD                status ok           selected   9  FDP 0.22  power 0.70
+                   1267 s

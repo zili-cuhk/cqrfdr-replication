@@ -1,0 +1,3 @@
+"dataset","q","n_tau025","n_tau050","both","only_tau025","only_tau050","jaccard"
+"GLIOMA_TCGA","0.1",0,0,0,"","",1
+"GLIOMA_TCGA","0.2",0,16,0,"","IGFBP2;NKX3-2;TNFRSF11B;EN1;KIF4A;ARL9;GJD3;SPP1;WEE1;IGF2BP3;GPR1;IRX5;AZGP1;TMPRSS3;RYR3;age",0

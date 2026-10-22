@@ -1,0 +1,20 @@
+# third-party code that is not redistributed in the public repository
+# (downloaded at first use / included in the journal Supplementary Material)
+simulation/vendor/hdscqr.cpp
+realdata/cqr_comparators/vendor/hdscqr.cpp
+simulation/tests/ref/hdcqr_author_fns.R
+realdata/cqr_comparators/reference/zheng2018_author_quantproc.R
+# generated output, data and logs
+simulation/results/paper/
+simulation/results/main/*/
+simulation/results/extra/*/
+simulation/sim/calibration_*.csv
+realdata/results_paper/paper_tables/
+realdata/data/
+realdata/results/
+realdata/tables*/
+realdata/tasks*.csv
+logs/
+**/logs/
+.Rhistory
+.DS_Store
